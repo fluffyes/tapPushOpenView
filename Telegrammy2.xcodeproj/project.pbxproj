@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		715BA77E244759300026705B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BA77D244759300026705B /* AppDelegate.swift */; };
+		715BA780244759300026705B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BA77F244759300026705B /* SceneDelegate.swift */; };
+		715BA785244759300026705B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715BA783244759300026705B /* Main.storyboard */; };
+		715BA787244759310026705B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715BA786244759310026705B /* Assets.xcassets */; };
+		715BA78A244759310026705B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715BA788244759310026705B /* LaunchScreen.storyboard */; };
+		715BA795244759310026705B /* Telegrammy2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BA794244759310026705B /* Telegrammy2Tests.swift */; };
+		715BA7A324475FAC0026705B /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BA7A124475FAC0026705B /* ChatTableViewCell.swift */; };
+		715BA7A424475FAC0026705B /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715BA7A224475FAC0026705B /* ChatTableViewCell.xib */; };
+		715BA7A6244760DD0026705B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BA7A5244760DD0026705B /* ChatViewController.swift */; };
+		715BA7A8244765450026705B /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BA7A7244765450026705B /* ConversationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		715BA791244759310026705B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715BA772244759300026705B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715BA779244759300026705B;
+			remoteInfo = Telegrammy2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		715BA77A244759300026705B /* Telegrammy2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegrammy2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		715BA77D244759300026705B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		715BA77F244759300026705B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		715BA784244759300026705B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		715BA786244759310026705B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		715BA789244759310026705B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		715BA78B244759310026705B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715BA790244759310026705B /* Telegrammy2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Telegrammy2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715BA794244759310026705B /* Telegrammy2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telegrammy2Tests.swift; sourceTree = "<group>"; };
+		715BA796244759310026705B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715BA79F24475B3D0026705B /* Telegrammy2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Telegrammy2.entitlements; sourceTree = "<group>"; };
+		715BA7A124475FAC0026705B /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		715BA7A224475FAC0026705B /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		715BA7A5244760DD0026705B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		715BA7A7244765450026705B /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715BA777244759300026705B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715BA78D244759310026705B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		715BA771244759300026705B = {
+			isa = PBXGroup;
+			children = (
+				715BA77C244759300026705B /* Telegrammy2 */,
+				715BA793244759310026705B /* Telegrammy2Tests */,
+				715BA77B244759300026705B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		715BA77B244759300026705B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715BA77A244759300026705B /* Telegrammy2.app */,
+				715BA790244759310026705B /* Telegrammy2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715BA77C244759300026705B /* Telegrammy2 */ = {
+			isa = PBXGroup;
+			children = (
+				715BA7A024475F8F0026705B /* Chat */,
+				715BA79F24475B3D0026705B /* Telegrammy2.entitlements */,
+				715BA77D244759300026705B /* AppDelegate.swift */,
+				715BA77F244759300026705B /* SceneDelegate.swift */,
+				715BA783244759300026705B /* Main.storyboard */,
+				715BA786244759310026705B /* Assets.xcassets */,
+				715BA788244759310026705B /* LaunchScreen.storyboard */,
+				715BA78B244759310026705B /* Info.plist */,
+			);
+			path = Telegrammy2;
+			sourceTree = "<group>";
+		};
+		715BA793244759310026705B /* Telegrammy2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				715BA794244759310026705B /* Telegrammy2Tests.swift */,
+				715BA796244759310026705B /* Info.plist */,
+			);
+			path = Telegrammy2Tests;
+			sourceTree = "<group>";
+		};
+		715BA7A024475F8F0026705B /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				715BA7A124475FAC0026705B /* ChatTableViewCell.swift */,
+				715BA7A224475FAC0026705B /* ChatTableViewCell.xib */,
+				715BA7A5244760DD0026705B /* ChatViewController.swift */,
+				715BA7A7244765450026705B /* ConversationViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715BA779244759300026705B /* Telegrammy2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715BA799244759310026705B /* Build configuration list for PBXNativeTarget "Telegrammy2" */;
+			buildPhases = (
+				715BA776244759300026705B /* Sources */,
+				715BA777244759300026705B /* Frameworks */,
+				715BA778244759300026705B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telegrammy2;
+			productName = Telegrammy2;
+			productReference = 715BA77A244759300026705B /* Telegrammy2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		715BA78F244759310026705B /* Telegrammy2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715BA79C244759310026705B /* Build configuration list for PBXNativeTarget "Telegrammy2Tests" */;
+			buildPhases = (
+				715BA78C244759310026705B /* Sources */,
+				715BA78D244759310026705B /* Frameworks */,
+				715BA78E244759310026705B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715BA792244759310026705B /* PBXTargetDependency */,
+			);
+			name = Telegrammy2Tests;
+			productName = Telegrammy2Tests;
+			productReference = 715BA790244759310026705B /* Telegrammy2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715BA772244759300026705B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = fluffy;
+				TargetAttributes = {
+					715BA779244759300026705B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					715BA78F244759310026705B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 715BA779244759300026705B;
+					};
+				};
+			};
+			buildConfigurationList = 715BA775244759300026705B /* Build configuration list for PBXProject "Telegrammy2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 715BA771244759300026705B;
+			productRefGroup = 715BA77B244759300026705B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715BA779244759300026705B /* Telegrammy2 */,
+				715BA78F244759310026705B /* Telegrammy2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715BA778244759300026705B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715BA78A244759310026705B /* LaunchScreen.storyboard in Resources */,
+				715BA7A424475FAC0026705B /* ChatTableViewCell.xib in Resources */,
+				715BA787244759310026705B /* Assets.xcassets in Resources */,
+				715BA785244759300026705B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715BA78E244759310026705B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715BA776244759300026705B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715BA7A324475FAC0026705B /* ChatTableViewCell.swift in Sources */,
+				715BA77E244759300026705B /* AppDelegate.swift in Sources */,
+				715BA7A8244765450026705B /* ConversationViewController.swift in Sources */,
+				715BA7A6244760DD0026705B /* ChatViewController.swift in Sources */,
+				715BA780244759300026705B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715BA78C244759310026705B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715BA795244759310026705B /* Telegrammy2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		715BA792244759310026705B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715BA779244759300026705B /* Telegrammy2 */;
+			targetProxy = 715BA791244759310026705B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		715BA783244759300026705B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715BA784244759300026705B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		715BA788244759310026705B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715BA789244759310026705B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715BA797244759310026705B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		715BA798244759310026705B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715BA79A244759310026705B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Telegrammy2/Telegrammy2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Telegrammy2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.fluffy.Telegrammy2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		715BA79B244759310026705B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Telegrammy2/Telegrammy2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Telegrammy2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.fluffy.Telegrammy2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		715BA79D244759310026705B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZA79NQ8N6;
+				INFOPLIST_FILE = Telegrammy2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.fluffy.Telegrammy2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegrammy2.app/Telegrammy2";
+			};
+			name = Debug;
+		};
+		715BA79E244759310026705B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HZA79NQ8N6;
+				INFOPLIST_FILE = Telegrammy2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.fluffy.Telegrammy2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegrammy2.app/Telegrammy2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715BA775244759300026705B /* Build configuration list for PBXProject "Telegrammy2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715BA797244759310026705B /* Debug */,
+				715BA798244759310026705B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715BA799244759310026705B /* Build configuration list for PBXNativeTarget "Telegrammy2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715BA79A244759310026705B /* Debug */,
+				715BA79B244759310026705B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715BA79C244759310026705B /* Build configuration list for PBXNativeTarget "Telegrammy2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715BA79D244759310026705B /* Debug */,
+				715BA79E244759310026705B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715BA772244759300026705B /* Project object */;
+}
